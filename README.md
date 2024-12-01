@@ -22,18 +22,16 @@ Step 10: Test the APIs by exporting the Postman collection and running them.
 Step 11: Write test cases for all controllers to ensure proper functionality.
 
 Project setup and run steps
-Step 1: Clone the Project
-Clone the project repository using the following command: git clone https://github.com/99Aditya/assignmentApentus.git
 
-Step 2: Create a new database in phpMyAdmin named is "assignment".
+Step 1: Create a new database in phpMyAdmin named is "assignment".
 
-Step 3: Run the migration and seeder commands to set up the database schema and insert seed data using the following command.
+Step 2: Run the migration and seeder commands to set up the database schema and insert seed data using the following command.
         php artisan migrate:fresh --seed
         or
         php artisan migrate
         php artisan db:seed
 
-Step 4: Run the Project using the following command:
+Step 3: Run the Project using the following command:
     php artisan serve
 
-Step 5: Export the Postman collection and run the API endpoints.
+Step 4: Export the Postman collection and run the API endpoints.
